@@ -116,38 +116,18 @@
       "manipulators": [
         {
           "from": {
-            "key_code": "home"
+            "key_code": "home",
+            "modifiers": {
+              "optional": [
+                "shift"
+              ]
+            }
           },
           "to": [
             {
               "key_code": "left_arrow",
               "modifiers": [
                 "command"
-              ]
-            }
-          ],
-          "type": "basic"
-        }
-      ]
-    },
-    {
-      "description": "Shift+Home => Cmd+Shift+Left arrow (Move cursor to beginning of line with selection)",
-      "manipulators": [
-        {
-          "from": {
-            "key_code": "home",
-            "modifiers": {
-              "mandatory": [
-                "shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "left_arrow",
-              "modifiers": [
-                "command",
-                "shift"
               ]
             }
           ],
@@ -187,38 +167,18 @@
       "manipulators": [
         {
           "from": {
-            "key_code": "end"
+            "key_code": "end",
+            "modifiers": {
+              "optional": [
+                "shift"
+              ]
+            }
           },
           "to": [
             {
               "key_code": "right_arrow",
               "modifiers": [
                 "command"
-              ]
-            }
-          ],
-          "type": "basic"
-        }
-      ]
-    },
-    {
-      "description": "Shift+End => Cmd+Shift+Right arrow (Move cursor to end of line with selection)",
-      "manipulators": [
-        {
-          "from": {
-            "key_code": "end",
-            "modifiers": {
-              "mandatory": [
-                "shift"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "right_arrow",
-              "modifiers": [
-                "command",
-                "shift"
               ]
             }
           ],
@@ -261,7 +221,7 @@
             "key_code": "left_arrow",
             "modifiers": {
               "mandatory": [
-                "control"
+                "command"
               ],
               "optional": [
                 "shift"
@@ -283,7 +243,7 @@
             "key_code": "right_arrow",
             "modifiers": {
               "mandatory": [
-                "control"
+                "command"
               ],
               "optional": [
                 "shift"
