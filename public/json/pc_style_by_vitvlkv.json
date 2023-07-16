@@ -270,7 +270,7 @@
             "key_code": "delete_or_backspace",
             "modifiers": {
               "mandatory": [
-                "control"
+                "command"
               ],
               "optional": [
                 "any"
@@ -292,7 +292,7 @@
             "key_code": "delete_forward",
             "modifiers": {
               "mandatory": [
-                "control"
+                "command"
               ],
               "optional": [
                 "any"
